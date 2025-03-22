@@ -1,0 +1,43 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.43.34808.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core_compilationtime.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "e450b95778be1a3e717fda60e6928ab24a404fb6e601335e669714391c617352"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/juce_core_compilationtime.cpp"
+          },
+          "hashes": {
+            "sha-256": "553d69b57f9c559cd2313344a523bc466d8fe3aedb94acc91ef812a51caee41b"
+          }
+        }
+      ]
+    }
+  ]
+}

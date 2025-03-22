@@ -1,0 +1,3313 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26439",
+          "message": {
+            "text": "This kind of function should not throw. Declare it 'noexcept' (f.6)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/memory/juce_ReferenceCountedObject.h"
+                },
+                "region": {
+                  "startLine": 212,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::SingleThreadedReferenceCountedObject::{ctor}",
+                  "decoratedName": "??0SingleThreadedReferenceCountedObject@juce@@IEAA@$$QEAV01@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26439",
+          "message": {
+            "text": "This kind of function should not throw. Declare it 'noexcept' (f.6)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/memory/juce_ReferenceCountedObject.h"
+                },
+                "region": {
+                  "startLine": 216,
+                  "startColumn": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::SingleThreadedReferenceCountedObject::=",
+                  "decoratedName": "??4SingleThreadedReferenceCountedObject@juce@@IEAAAEAV01@$$QEAV01@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'juce::IPAddress::address' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/network/juce_IPAddress.cpp"
+                },
+                "region": {
+                  "startLine": 57,
+                  "startColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::IPAddress::{ctor}",
+                  "decoratedName": "??0IPAddress@juce@@QEAA@PEBE_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "juce::IPAddress::address"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'juce::TextDiff::Change::start' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/text/juce_TextDiff.h"
+                },
+                "region": {
+                  "startLine": 78,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::TextDiff::Change::{ctor}",
+                  "decoratedName": "??0Change@TextDiff@juce@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "juce::TextDiff::Change::start"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'juce::TextDiff::Change::length' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/text/juce_TextDiff.h"
+                },
+                "region": {
+                  "startLine": 78,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::TextDiff::Change::{ctor}",
+                  "decoratedName": "??0Change@TextDiff@juce@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "juce::TextDiff::Change::length"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'juce::var::value' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/containers/juce_Variant.cpp"
+                },
+                "region": {
+                  "startLine": 509,
+                  "startColumn": 6
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::var::{ctor}",
+                  "decoratedName": "??0var@juce@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "juce::var::value"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'juce::var::value' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/containers/juce_Variant.cpp"
+                },
+                "region": {
+                  "startLine": 510,
+                  "startColumn": 6
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::var::{ctor}",
+                  "decoratedName": "??0var@juce@@AEAA@AEBUVariantType@01@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "juce::var::value"
+          }
+        },
+        {
+          "ruleId": "C26819",
+          "message": {
+            "text": "Unannotated fallthrough between switch labels (es.78)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/xml/juce_XmlElement.cpp"
+                },
+                "region": {
+                  "startLine": 254,
+                  "startColumn": 25,
+                  "endLine": 254,
+                  "endColumn": 41
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::XmlOutputFunctions::escapeIllegalXmlChars",
+                  "decoratedName": "?escapeIllegalXmlChars@XmlOutputFunctions@juce@@YAXAEAVOutputStream@2@AEBVString@2@_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26819",
+          "message": {
+            "text": "Unannotated fallthrough between switch labels (es.78)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/zip/zlib/inflate.c"
+                },
+                "region": {
+                  "startLine": 636,
+                  "startColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::zlibNamespace::z_inflate",
+                  "decoratedName": "?z_inflate@zlibNamespace@juce@@YAHPEAUz_stream_s@12@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26819",
+          "message": {
+            "text": "Unannotated fallthrough between switch labels (es.78)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/zip/zlib/inflate.c"
+                },
+                "region": {
+                  "startLine": 643,
+                  "startColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::zlibNamespace::z_inflate",
+                  "decoratedName": "?z_inflate@zlibNamespace@juce@@YAHPEAUz_stream_s@12@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26819",
+          "message": {
+            "text": "Unannotated fallthrough between switch labels (es.78)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/zip/zlib/inflate.c"
+                },
+                "region": {
+                  "startLine": 652,
+                  "startColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::zlibNamespace::z_inflate",
+                  "decoratedName": "?z_inflate@zlibNamespace@juce@@YAHPEAUz_stream_s@12@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26819",
+          "message": {
+            "text": "Unannotated fallthrough between switch labels (es.78)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/zip/zlib/inflate.c"
+                },
+                "region": {
+                  "startLine": 664,
+                  "startColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::zlibNamespace::z_inflate",
+                  "decoratedName": "?z_inflate@zlibNamespace@juce@@YAHPEAUz_stream_s@12@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26819",
+          "message": {
+            "text": "Unannotated fallthrough between switch labels (es.78)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/zip/zlib/inflate.c"
+                },
+                "region": {
+                  "startLine": 686,
+                  "startColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::zlibNamespace::z_inflate",
+                  "decoratedName": "?z_inflate@zlibNamespace@juce@@YAHPEAUz_stream_s@12@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26819",
+          "message": {
+            "text": "Unannotated fallthrough between switch labels (es.78)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/zip/zlib/inflate.c"
+                },
+                "region": {
+                  "startLine": 707,
+                  "startColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::zlibNamespace::z_inflate",
+                  "decoratedName": "?z_inflate@zlibNamespace@juce@@YAHPEAUz_stream_s@12@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26819",
+          "message": {
+            "text": "Unannotated fallthrough between switch labels (es.78)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/zip/zlib/inflate.c"
+                },
+                "region": {
+                  "startLine": 727,
+                  "startColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::zlibNamespace::z_inflate",
+                  "decoratedName": "?z_inflate@zlibNamespace@juce@@YAHPEAUz_stream_s@12@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26819",
+          "message": {
+            "text": "Unannotated fallthrough between switch labels (es.78)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/zip/zlib/inflate.c"
+                },
+                "region": {
+                  "startLine": 750,
+                  "startColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::zlibNamespace::z_inflate",
+                  "decoratedName": "?z_inflate@zlibNamespace@juce@@YAHPEAUz_stream_s@12@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26819",
+          "message": {
+            "text": "Unannotated fallthrough between switch labels (es.78)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/zip/zlib/inflate.c"
+                },
+                "region": {
+                  "startLine": 757,
+                  "startColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::zlibNamespace::z_inflate",
+                  "decoratedName": "?z_inflate@zlibNamespace@juce@@YAHPEAUz_stream_s@12@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26819",
+          "message": {
+            "text": "Unannotated fallthrough between switch labels (es.78)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/zip/zlib/inflate.c"
+                },
+                "region": {
+                  "startLine": 759,
+                  "startColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::zlibNamespace::z_inflate",
+                  "decoratedName": "?z_inflate@zlibNamespace@juce@@YAHPEAUz_stream_s@12@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26819",
+          "message": {
+            "text": "Unannotated fallthrough between switch labels (es.78)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/zip/zlib/inflate.c"
+                },
+                "region": {
+                  "startLine": 804,
+                  "startColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::zlibNamespace::z_inflate",
+                  "decoratedName": "?z_inflate@zlibNamespace@juce@@YAHPEAUz_stream_s@12@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26819",
+          "message": {
+            "text": "Unannotated fallthrough between switch labels (es.78)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/zip/zlib/inflate.c"
+                },
+                "region": {
+                  "startLine": 839,
+                  "startColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::zlibNamespace::z_inflate",
+                  "decoratedName": "?z_inflate@zlibNamespace@juce@@YAHPEAUz_stream_s@12@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26819",
+          "message": {
+            "text": "Unannotated fallthrough between switch labels (es.78)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/zip/zlib/inflate.c"
+                },
+                "region": {
+                  "startLine": 860,
+                  "startColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::zlibNamespace::z_inflate",
+                  "decoratedName": "?z_inflate@zlibNamespace@juce@@YAHPEAUz_stream_s@12@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26819",
+          "message": {
+            "text": "Unannotated fallthrough between switch labels (es.78)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/zip/zlib/inflate.c"
+                },
+                "region": {
+                  "startLine": 934,
+                  "startColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::zlibNamespace::z_inflate",
+                  "decoratedName": "?z_inflate@zlibNamespace@juce@@YAHPEAUz_stream_s@12@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26819",
+          "message": {
+            "text": "Unannotated fallthrough between switch labels (es.78)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/zip/zlib/inflate.c"
+                },
+                "region": {
+                  "startLine": 977,
+                  "startColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::zlibNamespace::z_inflate",
+                  "decoratedName": "?z_inflate@zlibNamespace@juce@@YAHPEAUz_stream_s@12@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26819",
+          "message": {
+            "text": "Unannotated fallthrough between switch labels (es.78)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/zip/zlib/inflate.c"
+                },
+                "region": {
+                  "startLine": 985,
+                  "startColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::zlibNamespace::z_inflate",
+                  "decoratedName": "?z_inflate@zlibNamespace@juce@@YAHPEAUz_stream_s@12@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26819",
+          "message": {
+            "text": "Unannotated fallthrough between switch labels (es.78)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/zip/zlib/inflate.c"
+                },
+                "region": {
+                  "startLine": 1010,
+                  "startColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::zlibNamespace::z_inflate",
+                  "decoratedName": "?z_inflate@zlibNamespace@juce@@YAHPEAUz_stream_s@12@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26819",
+          "message": {
+            "text": "Unannotated fallthrough between switch labels (es.78)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/zip/zlib/inflate.c"
+                },
+                "region": {
+                  "startLine": 1030,
+                  "startColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::zlibNamespace::z_inflate",
+                  "decoratedName": "?z_inflate@zlibNamespace@juce@@YAHPEAUz_stream_s@12@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26819",
+          "message": {
+            "text": "Unannotated fallthrough between switch labels (es.78)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/zip/zlib/inflate.c"
+                },
+                "region": {
+                  "startLine": 1085,
+                  "startColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::zlibNamespace::z_inflate",
+                  "decoratedName": "?z_inflate@zlibNamespace@juce@@YAHPEAUz_stream_s@12@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26819",
+          "message": {
+            "text": "Unannotated fallthrough between switch labels (es.78)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/zip/zlib/inflate.c"
+                },
+                "region": {
+                  "startLine": 1098,
+                  "startColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::zlibNamespace::z_inflate",
+                  "decoratedName": "?z_inflate@zlibNamespace@juce@@YAHPEAUz_stream_s@12@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26819",
+          "message": {
+            "text": "Unannotated fallthrough between switch labels (es.78)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/zip/juce_GZIPDecompressorInputStream.cpp"
+                },
+                "region": {
+                  "startLine": 146,
+                  "startColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::GZIPDecompressorInputStream::GZIPDecompressHelper::doNextBlock",
+                  "decoratedName": "?doNextBlock@GZIPDecompressHelper@GZIPDecompressorInputStream@juce@@QEAAHQEAEI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26819",
+          "message": {
+            "text": "Unannotated fallthrough between switch labels (es.78)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/zip/juce_GZIPDecompressorInputStream.cpp"
+                },
+                "region": {
+                  "startLine": 162,
+                  "startColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::GZIPDecompressorInputStream::GZIPDecompressHelper::doNextBlock",
+                  "decoratedName": "?doNextBlock@GZIPDecompressHelper@GZIPDecompressorInputStream@juce@@QEAAHQEAEI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'juce::GZIPCompressorOutputStream::GZIPCompressorHelper::buffer' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/zip/juce_GZIPCompressorOutputStream.cpp"
+                },
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::GZIPCompressorOutputStream::GZIPCompressorHelper::{ctor}",
+                  "decoratedName": "??0GZIPCompressorHelper@GZIPCompressorOutputStream@juce@@QEAA@HH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "juce::GZIPCompressorOutputStream::GZIPCompressorHelper::buffer"
+          }
+        },
+        {
+          "ruleId": "C26819",
+          "message": {
+            "text": "Unannotated fallthrough between switch labels (es.78)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/zip/juce_GZIPCompressorOutputStream.cpp"
+                },
+                "region": {
+                  "startLine": 108,
+                  "startColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::GZIPCompressorOutputStream::GZIPCompressorHelper::doNextBlock",
+                  "decoratedName": "?doNextBlock@GZIPCompressorHelper@GZIPCompressorOutputStream@juce@@AEAA_NAEAPEBEAEA_KAEAVOutputStream@3@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'juce::ZipFile::ZipEntry::uncompressedSize' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/zip/juce_ZipFile.h"
+                },
+                "region": {
+                  "startLine": 103,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::ZipFile::ZipEntry::{ctor}",
+                  "decoratedName": "??0ZipEntry@ZipFile@juce@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "juce::ZipFile::ZipEntry::uncompressedSize"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'juce::ZipFile::ZipEntry::isSymbolicLink' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/zip/juce_ZipFile.h"
+                },
+                "region": {
+                  "startLine": 103,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::ZipFile::ZipEntry::{ctor}",
+                  "decoratedName": "??0ZipEntry@ZipFile@juce@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "juce::ZipFile::ZipEntry::isSymbolicLink"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'juce::ZipFile::ZipEntry::externalFileAttributes' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/zip/juce_ZipFile.h"
+                },
+                "region": {
+                  "startLine": 103,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::ZipFile::ZipEntry::{ctor}",
+                  "decoratedName": "??0ZipEntry@ZipFile@juce@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "juce::ZipFile::ZipEntry::externalFileAttributes"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'juce::ChildProcess::ActiveProcess::processInfo' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/native/juce_Threads_windows.cpp"
+                },
+                "region": {
+                  "startLine": 433,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::ChildProcess::ActiveProcess::{ctor}",
+                  "decoratedName": "??0ActiveProcess@ChildProcess@juce@@QEAA@AEBVString@2@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "juce::ChildProcess::ActiveProcess::processInfo"
+          }
+        },
+        {
+          "ruleId": "C26819",
+          "message": {
+            "text": "Unannotated fallthrough between switch labels (es.78)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/text/juce_CharacterFunctions.h"
+                },
+                "region": {
+                  "startLine": 245,
+                  "startColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::CharacterFunctions::readDoubleValue",
+                  "decoratedName": "??$readDoubleValue@VCharPointer_UTF8@juce@@@CharacterFunctions@juce@@SANAEAVCharPointer_UTF8@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26819",
+          "message": {
+            "text": "Unannotated fallthrough between switch labels (es.78)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/text/juce_CharacterFunctions.h"
+                },
+                "region": {
+                  "startLine": 362,
+                  "startColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::CharacterFunctions::readDoubleValue",
+                  "decoratedName": "??$readDoubleValue@VCharPointer_UTF8@juce@@@CharacterFunctions@juce@@SANAEAVCharPointer_UTF8@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26819",
+          "message": {
+            "text": "Unannotated fallthrough between switch labels (es.78)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/text/juce_CharacterFunctions.h"
+                },
+                "region": {
+                  "startLine": 245,
+                  "startColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::CharacterFunctions::readDoubleValue",
+                  "decoratedName": "??$readDoubleValue@VCharPointer_UTF16@juce@@@CharacterFunctions@juce@@SANAEAVCharPointer_UTF16@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26819",
+          "message": {
+            "text": "Unannotated fallthrough between switch labels (es.78)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/text/juce_CharacterFunctions.h"
+                },
+                "region": {
+                  "startLine": 362,
+                  "startColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::CharacterFunctions::readDoubleValue",
+                  "decoratedName": "??$readDoubleValue@VCharPointer_UTF16@juce@@@CharacterFunctions@juce@@SANAEAVCharPointer_UTF16@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26819",
+          "message": {
+            "text": "Unannotated fallthrough between switch labels (es.78)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/text/juce_CharacterFunctions.h"
+                },
+                "region": {
+                  "startLine": 245,
+                  "startColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::CharacterFunctions::readDoubleValue",
+                  "decoratedName": "??$readDoubleValue@VCharPointer_UTF32@juce@@@CharacterFunctions@juce@@SANAEAVCharPointer_UTF32@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26819",
+          "message": {
+            "text": "Unannotated fallthrough between switch labels (es.78)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/text/juce_CharacterFunctions.h"
+                },
+                "region": {
+                  "startLine": 362,
+                  "startColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::CharacterFunctions::readDoubleValue",
+                  "decoratedName": "??$readDoubleValue@VCharPointer_UTF32@juce@@@CharacterFunctions@juce@@SANAEAVCharPointer_UTF32@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26819",
+          "message": {
+            "text": "Unannotated fallthrough between switch labels (es.78)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/text/juce_CharacterFunctions.h"
+                },
+                "region": {
+                  "startLine": 245,
+                  "startColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::CharacterFunctions::readDoubleValue",
+                  "decoratedName": "??$readDoubleValue@VCharPointer_ASCII@juce@@@CharacterFunctions@juce@@SANAEAVCharPointer_ASCII@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26819",
+          "message": {
+            "text": "Unannotated fallthrough between switch labels (es.78)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/text/juce_CharacterFunctions.h"
+                },
+                "region": {
+                  "startLine": 362,
+                  "startColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "juce::CharacterFunctions::readDoubleValue",
+                  "decoratedName": "??$readDoubleValue@VCharPointer_ASCII@juce@@@CharacterFunctions@juce@@SANAEAVCharPointer_ASCII@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.43.34808.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/shreeyam acharya/onedrive/desktop/new folder/from audio programming/slider 2/slider 4/slider_and_dial_customization_part2/jucelibrarycode/include_juce_core.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "637c64ea013cd7379a84851c02c5fd731eda19d8e8ef218e9cc8d8c533d66d6e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/memory/juce_ReferenceCountedObject.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "acb3c3ac71b295082f1fb406276099b8117f16ae20b6ece682b81e7b84f6b19f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/network/juce_IPAddress.cpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "05b2676c3a6bd90430daf2d8c434417e9e35e8b7f4d92b431df3fe0196f66e5f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/text/juce_TextDiff.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "455a6af07ab76f74220beb0e39085be9334f0f54daabd90d320eb31e46d71c7a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/containers/juce_Variant.cpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "7234c29bb1a7efffbd56d1ec3bd60af99f9e9a2ff8e1042f923a97d5813bd8de"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/xml/juce_XmlElement.cpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "911e97410d874fafab71eb85d6736064decaba24fc16dc46978b38dda912927c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/zip/zlib/inflate.c"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "02e2afcf343964097f4092ec0331ce6bdc03b7d7bb03beaa83f68bf5b28a0260"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/zip/juce_GZIPDecompressorInputStream.cpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "81aaf78dff3732c5e6bf2ffa5c3a718fddecf94438904f5cc12cb1375bed78b5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/zip/juce_GZIPCompressorOutputStream.cpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "1bd9dc7aa91aa197139f36d97fe5bd1d633e30ee01dabfd711af15214cf4daec"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/zip/juce_ZipFile.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "e6491f84d7197bf416dc6358325f9c288f8eeab460be1a05515105220305531b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/native/juce_Threads_windows.cpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "fd4e3acd58b9d7c39b3596479be463236987479e3e494bf450bd8ab520a7edab"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/PM/prod_juce/JUCE/modules/juce_core/text/juce_CharacterFunctions.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "e67ddda2b6ce60e06d159371a9f289a00f1aecf1414c870d74204111855c53ef"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/juce_core.cpp"
+          },
+          "hashes": {
+            "sha-256": "e7857f87698fb910931bf4f800c0a66e6b26a4fcbc5c2970591355087046406a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/juce_core.h"
+          },
+          "hashes": {
+            "sha-256": "f8542285ccc2f27d450e33acf41c81535152a870a47e252fb9e92db77fbac014"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/system/juce_targetplatform.h"
+          },
+          "hashes": {
+            "sha-256": "1deafbccb51fff97395c9c0a8aeabc1dd79fd18a4e72b529ce17dd05fab1ad5a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/native/juce_basicnativeheaders.h"
+          },
+          "hashes": {
+            "sha-256": "47f063e8aaffae8cb264d5048a4b65ecb026f8b02fe0656b4fc9811e3040fb67"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/system/juce_standardheader.h"
+          },
+          "hashes": {
+            "sha-256": "778bb147abf48479d5e0ada8d48d99c95da32d81cfe30de7eb53ad41e0cd5fd6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/system/juce_compilersupport.h"
+          },
+          "hashes": {
+            "sha-256": "4babc7a1a4410b464f64e7891fc31dc3202e6c7d31629b93e4c8a0877a2ea2d6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/system/juce_compilerwarnings.h"
+          },
+          "hashes": {
+            "sha-256": "e168bed3a6e4231af7dec29c99e7ed2e53e299fb5d8515ea57be9e844dcfb3a6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/system/juce_platformdefs.h"
+          },
+          "hashes": {
+            "sha-256": "83c14586d86cf2147d60e051304b7aabc2e7dbcb20b17f97eb8c3cc35346d37b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/misc/juce_enumhelpers.h"
+          },
+          "hashes": {
+            "sha-256": "db9fc296356c470ba015ab998fe88f1519881242f71a730183c6886a402f5f12"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/memory/juce_memory.h"
+          },
+          "hashes": {
+            "sha-256": "8771a01d8c13355c175399b3e902ab262f2e2daddc10e7f16b8a15b11e57976a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/maths/juce_mathsfunctions.h"
+          },
+          "hashes": {
+            "sha-256": "84b922e8ac05038b8aff3847f7ac90332d2a9a8f19ba4b560f5706f8035a3e01"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/memory/juce_byteorder.h"
+          },
+          "hashes": {
+            "sha-256": "d556e0ddd4c0e42eb608a3c9d1898cb28b4bf51870beb6ee8206b3b24e32cf6c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/memory/juce_atomic.h"
+          },
+          "hashes": {
+            "sha-256": "9384d543f888d6d63142ab10bc8762c6377164979627996923ece98be2b4c511"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/text/juce_charpointer_utf8.h"
+          },
+          "hashes": {
+            "sha-256": "79ead039f9c60b794151af9944d825db1688f116ea4c5b783b6082e92be69319"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/text/juce_charpointer_utf16.h"
+          },
+          "hashes": {
+            "sha-256": "9c37e39776c66789c9a80535163814c106a900a6317594eed01242e67233e4f0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/text/juce_charpointer_utf32.h"
+          },
+          "hashes": {
+            "sha-256": "d1340ff3a45003413db8e9f959b95dc5156d67de7deda6d2ac059b41d5a6b5d2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/text/juce_charpointer_ascii.h"
+          },
+          "hashes": {
+            "sha-256": "09729c9f4887d4da0ced20c3c00563539ae6f0c90b5700ebc825ff3e0bb2852f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/text/juce_string.h"
+          },
+          "hashes": {
+            "sha-256": "32ac9724a77a1de893fa2699b7aef310086fbc46022a24553d459185fb03a603"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/text/juce_stringref.h"
+          },
+          "hashes": {
+            "sha-256": "2c04cb3023cffbc728041e91b51efd1c7ccc0bfa1a5f81ab6275f72e34061c89"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/logging/juce_logger.h"
+          },
+          "hashes": {
+            "sha-256": "c6a6a61262ce6d1814a1c6fa82c73f659027780d916d10d29889da569700879f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/memory/juce_leakedobjectdetector.h"
+          },
+          "hashes": {
+            "sha-256": "f1891f96a8e9c3f590765489d8ba8272d2d7d202aebe5077251ad9fe219438a2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/memory/juce_containerdeletepolicy.h"
+          },
+          "hashes": {
+            "sha-256": "1ca77e9d8d3d5c05bf29d23bf587dd7d03366353c70c93579b16839f7eb5544f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/memory/juce_heapblock.h"
+          },
+          "hashes": {
+            "sha-256": "a8f406b9e097e3903c7737764e0cb68fa9d82e13adad927d4dd3a6003d46090a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/memory/juce_memoryblock.h"
+          },
+          "hashes": {
+            "sha-256": "6f9d2c6be5ce8b874bbfdc32c9af75cf85f10ef82720bd432f9fdaf0d20b6e90"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/memory/juce_copyableheapblock.h"
+          },
+          "hashes": {
+            "sha-256": "169ef214104a2430e8e1138c50ceffb1388879fe4cfc54ee7f72d3ada0e52a72"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/memory/juce_scopedpointer.h"
+          },
+          "hashes": {
+            "sha-256": "e57232dfe48a0bac6a6e025f8030e8c47a81f924b8f7c9d90898db2b7bef83be"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/memory/juce_optionalscopedpointer.h"
+          },
+          "hashes": {
+            "sha-256": "5e65b52c320f4dc2de2de32fcb06ac7eece25cd8b527bcef18b93330339658ed"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/containers/juce_optional.h"
+          },
+          "hashes": {
+            "sha-256": "3a07680b1981be611196f6bbe45262e6cad1498a956589d7af9f8986fe4d5144"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/containers/juce_enumerate.h"
+          },
+          "hashes": {
+            "sha-256": "68bb524c4de33e81e54154ad47ba8c7f96fc53f31716c17e20d7557c1ecbad3f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/containers/juce_scopedvaluesetter.h"
+          },
+          "hashes": {
+            "sha-256": "f3b75b9ea30611be9a818a8cb36aad11c17b89eb6f6c148e8682298a042229ab"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/memory/juce_singleton.h"
+          },
+          "hashes": {
+            "sha-256": "b30d3c1214a78fd6388ee7be9ca2d7be3b8fa09b695693fa3f227083ab5fc456"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/memory/juce_weakreference.h"
+          },
+          "hashes": {
+            "sha-256": "d09ec06f1704d15bcb64502cdab1eaf53a669845ab6b9efdc92fd597f7f41c85"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/threads/juce_scopedlock.h"
+          },
+          "hashes": {
+            "sha-256": "f73cf6fc0ee14de5b5973f8920c5453b5dac04a4771cb8a057d507ab0d766cc8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/threads/juce_criticalsection.h"
+          },
+          "hashes": {
+            "sha-256": "c79ca03ba2779d034b121b84215a150908ca8e116223bc112716c3c4a2a2abb9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/maths/juce_range.h"
+          },
+          "hashes": {
+            "sha-256": "ee84114248a39c2d32779f24c1764d4fbf5b18147ade1962271b213bb85a2f84"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/maths/juce_normalisablerange.h"
+          },
+          "hashes": {
+            "sha-256": "dcd8ff586b564904fdac5a1f4b5b67d6778df490a35c31cf46222b6f756a6937"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/maths/juce_statisticsaccumulator.h"
+          },
+          "hashes": {
+            "sha-256": "6abdff9b0e71d12277736eee6db4376f54df9bb65a62ce97aa93f2c9b7ec1d0a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/containers/juce_elementcomparator.h"
+          },
+          "hashes": {
+            "sha-256": "d6056e0b31cf27e2dfcdde185e2df79b970246034b99721ac398e81d01eed3bb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/containers/juce_arrayallocationbase.h"
+          },
+          "hashes": {
+            "sha-256": "0d608e4bf65b29d0822679b7685747f355ba5b5f33adc052cf03729934f66d16"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/containers/juce_arraybase.h"
+          },
+          "hashes": {
+            "sha-256": "a4035412a8e6fe7a09b27151c605d1dec861cb56d9fd6f3fa6217db5ee380a12"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/containers/juce_array.h"
+          },
+          "hashes": {
+            "sha-256": "22979490b787923a98e3fd0fa12f3120d5964b0469bc109420080284ddb121bd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/containers/juce_linkedlistpointer.h"
+          },
+          "hashes": {
+            "sha-256": "1b74e2941215eb627957d293819b045727b386be58dc9484b5de15caa618597b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/misc/juce_scopeguard.h"
+          },
+          "hashes": {
+            "sha-256": "0256ee94d19e2c039ec3ea1e7e9eaaae5841ae58999daf2ac142b275abf6b5b5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/containers/juce_listenerlist.h"
+          },
+          "hashes": {
+            "sha-256": "f68b4f63969fa7b1a898f218d779f63647ac5f50577f24bc77dc274ca3851f56"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/containers/juce_ownedarray.h"
+          },
+          "hashes": {
+            "sha-256": "478cb92fccafa5f0599034b44f6f9b5cb97f299ed382c0a0e66a72c178880750"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/containers/juce_referencecountedarray.h"
+          },
+          "hashes": {
+            "sha-256": "285c9128b8e7b9325b7972ac6157a610abf094c36c6bc47246689ae3e2d2f4c7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/containers/juce_sortedset.h"
+          },
+          "hashes": {
+            "sha-256": "a1cad45e9335e9db73ec145280d84a13e9509ee705a9ec11a6ff58ab9c216d9b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/containers/juce_sparseset.h"
+          },
+          "hashes": {
+            "sha-256": "44cffb3868972505029f544b8191ebc045f6c6cf28d56ee069443bf23584463e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/containers/juce_abstractfifo.h"
+          },
+          "hashes": {
+            "sha-256": "135ec1f338a6d3356aabc58ff95c83d56f9a536550817b1a8338a75f9bd3d097"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/containers/juce_singlethreadedabstractfifo.h"
+          },
+          "hashes": {
+            "sha-256": "7a99d89644df2741e69ac7a74f38ddf83a4dd9f7cede8494ebc150eb5d721e72"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/text/juce_newline.h"
+          },
+          "hashes": {
+            "sha-256": "7019577924a35ce7f5bf530d49513ed4370c2655c4bd5a396cbf9c8cbb97cd20"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/text/juce_stringpool.h"
+          },
+          "hashes": {
+            "sha-256": "0d8b7cea09256f83bcb57aba09f08f8fb8f72dbf008245a4c9871b9dcdf834c7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/text/juce_identifier.h"
+          },
+          "hashes": {
+            "sha-256": "e9e4fa23c195ed48f631d027c3369eccc474b09dc5ec59884aede35dc871b4c9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/text/juce_stringarray.h"
+          },
+          "hashes": {
+            "sha-256": "830cb649976a45e411dbbdcef1c5fa7cbc909dc01734577073645c6bc4050a19"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/system/juce_systemstats.h"
+          },
+          "hashes": {
+            "sha-256": "44e38589867abfa3d143a59befd88adb52353fce55f96825f93728d1a22930fa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/memory/juce_heavyweightleakedobjectdetector.h"
+          },
+          "hashes": {
+            "sha-256": "88695885ba874adfbf87179ce548697ccb07a9d560ea324c7be0ccc92cce0729"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/text/juce_stringpairarray.h"
+          },
+          "hashes": {
+            "sha-256": "a2bd1711d82bbda24b56971262d3f3971cbb6af9a24bfad7b34473e58608e069"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/text/juce_localisedstrings.h"
+          },
+          "hashes": {
+            "sha-256": "289e485a5fff9f41723b1e6e3901958e85c8f811fcfeea9a98d53471d69a00ad"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/text/juce_base64.h"
+          },
+          "hashes": {
+            "sha-256": "d4bbfffb1d76340e31196fe400f385b35d3d10aa399c771fc4b8106544f6cea8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/misc/juce_functional.h"
+          },
+          "hashes": {
+            "sha-256": "891b4f26c673bf21e20a4b5f5a05fb744d8898b3de784c398952c3ae9c482289"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/containers/juce_span.h"
+          },
+          "hashes": {
+            "sha-256": "bd63339aebcef2b8d22cf32956b25542f390711771e9b2e51749476e9f62f2ff"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/misc/juce_result.h"
+          },
+          "hashes": {
+            "sha-256": "40c3287dafdcfc07d39143cbd602b7738e82be0f2e07e7fe54d4b9dcbfd65ff8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/misc/juce_uuid.h"
+          },
+          "hashes": {
+            "sha-256": "ed09344cd4205c60229766b0846811dd99e49b4f8c0a64a35f7c536479d45a91"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/misc/juce_consoleapplication.h"
+          },
+          "hashes": {
+            "sha-256": "ad3cfe3186593666d1b17d42d01c43771f00e9995a6e3b2a1f5ec47a5b63b4dc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/containers/juce_variant.h"
+          },
+          "hashes": {
+            "sha-256": "b1a67b606e21fc874d07bb5bc374d47f694ff71ed40293448fe1a1009f6e69c8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/containers/juce_namedvalueset.h"
+          },
+          "hashes": {
+            "sha-256": "ae11b198f968ef461b6b21cf7810f496f03123e8e9a23ba5ba03463e4b693565"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/json/juce_json.h"
+          },
+          "hashes": {
+            "sha-256": "6cd4a0d8ada7224b69aa728a34e2945e16bc7382d55c878c44297081bc5d9324"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/containers/juce_dynamicobject.h"
+          },
+          "hashes": {
+            "sha-256": "6f543e5a5c97ea03cf4d692c012d4d565ccff63fdbaebd1200f8435890a77726"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/containers/juce_hashmap.h"
+          },
+          "hashes": {
+            "sha-256": "24a7065a17329f684432c6e7be0d7a9b627f597cec9a4d8d06dc596944628084"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/containers/juce_fixedsizefunction.h"
+          },
+          "hashes": {
+            "sha-256": "26bdc24ecc8473344212c89f2916c400920e803e6e41f86a67ed96c47fcf1070"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/time/juce_relativetime.h"
+          },
+          "hashes": {
+            "sha-256": "f1c0b4f02ad9705018051e002baf882c80fefb08468fe035d778bc48868f4169"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/time/juce_time.h"
+          },
+          "hashes": {
+            "sha-256": "6a450ccd6e55b5fffd0c637cda4d8df2bc69f3692450f7f5b7a1792352a9c639"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/streams/juce_inputstream.h"
+          },
+          "hashes": {
+            "sha-256": "8bda89f5fe7ed789b3167c811fa4fe2c6dbfd6008b47d75da2a69e35ffbab7b4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/streams/juce_outputstream.h"
+          },
+          "hashes": {
+            "sha-256": "1420e175a14402fa48fbbc1a3ce972320027ec802c722899b12e52febb214510"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/streams/juce_bufferedinputstream.h"
+          },
+          "hashes": {
+            "sha-256": "72803a347ee9e06bfb39b67439d803b2a9c0dee6031392e66f43cc3201862765"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/streams/juce_memoryinputstream.h"
+          },
+          "hashes": {
+            "sha-256": "0ce61a38f673efcfffd93e3c5762d93881fcc20deb0aacf45232ab300fd53d33"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/streams/juce_memoryoutputstream.h"
+          },
+          "hashes": {
+            "sha-256": "ae850c2717a28def812d9769430e0a8ea0acda02939097b7ed173315940176d5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/streams/juce_subregionstream.h"
+          },
+          "hashes": {
+            "sha-256": "efaf4936d92e607e5a3f6936f43c87554c5585c3b353d6e1f229946557abe742"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/streams/juce_inputsource.h"
+          },
+          "hashes": {
+            "sha-256": "3252fad427cff456f7105a3bb4d9e29d7749201f87a8bdbd453c9cb25146c8d9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/files/juce_file.h"
+          },
+          "hashes": {
+            "sha-256": "077fbc9f0c034138b7f69cda9ff6d45d3f27e6c6ef0a3b3944cb51a6fcc5e4b4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/files/juce_directoryiterator.h"
+          },
+          "hashes": {
+            "sha-256": "4eecee95705ffeea66dc3b9643f282d3e8ac24da9dabab86b3d85361fecd75b3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/files/juce_rangeddirectoryiterator.h"
+          },
+          "hashes": {
+            "sha-256": "2952a491abda24c4ff0ae62af1eef3824c94d0a5e4b690e4fb4d521a175c7c67"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/files/juce_fileinputstream.h"
+          },
+          "hashes": {
+            "sha-256": "8fccdefa19285ab22817e088f9f8fd15a37da8bc3a0c07129cfff5b3a8014044"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/files/juce_fileoutputstream.h"
+          },
+          "hashes": {
+            "sha-256": "93ceab77de45875fa96b87e94d925152df47ee6737717ee5bcbf1eb26fbca09a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/files/juce_filesearchpath.h"
+          },
+          "hashes": {
+            "sha-256": "f1f2febc829b7c95fc339f0a88b9cbfdb29983713bcf4d3d7a9f552ee5c80c54"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/files/juce_memorymappedfile.h"
+          },
+          "hashes": {
+            "sha-256": "bf2ff5f6a9bd6efb4efd11a3e775e691fc23078b295a10887ca61de3cacc3397"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/files/juce_temporaryfile.h"
+          },
+          "hashes": {
+            "sha-256": "67e6634d82cd45d785c427590ee40fd6482baec0185953bacb27bd46a30c2629"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/files/juce_filefilter.h"
+          },
+          "hashes": {
+            "sha-256": "b886dbbdfd143abda43c4322787d84012c66ec17f75225a49c2e50334d89cfcb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/files/juce_wildcardfilefilter.h"
+          },
+          "hashes": {
+            "sha-256": "4acb42784d606afd77abc386f105a78eee19d4c5a4a000f5388846496196f3ad"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/streams/juce_fileinputsource.h"
+          },
+          "hashes": {
+            "sha-256": "a3a6aa44c7635abbfbf2776e89ea7f7798aa233d437650d3c0d34bccbf788d4c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/logging/juce_filelogger.h"
+          },
+          "hashes": {
+            "sha-256": "0ca5edab064326bd5556e3661e98a825bfab4139dc9d7b8ac826fd059f97058a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/json/juce_jsonutils.h"
+          },
+          "hashes": {
+            "sha-256": "b8180d75e1596a20dbc6b9a7c706bc050169c67e76e5cf8baba0611d4d22ab79"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/serialisation/juce_serialisation.h"
+          },
+          "hashes": {
+            "sha-256": "c4ba2b01bc0aafda46e32f1db04aa95e1181f93f0af4a5356391a9a81c178e6b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/json/juce_jsonserialisation.h"
+          },
+          "hashes": {
+            "sha-256": "e959826cfca1c9146dcbe630ab07146e03a0111225fba5e94d4b3d19e8363d8f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/maths/juce_biginteger.h"
+          },
+          "hashes": {
+            "sha-256": "8b9e2c17ea185407a8fd00aa628a44800fe8d93feaafa9e3b22986e5d3d62a61"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/maths/juce_expression.h"
+          },
+          "hashes": {
+            "sha-256": "5f2981d1d4ac75473f56d8865428e1108dee12b3eec6733d7d233d1f9633eb7e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/maths/juce_random.h"
+          },
+          "hashes": {
+            "sha-256": "ea4f14376b199d969e771cc910126341f6732da2d1aaa4000fcec74ab5511ca9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/misc/juce_runtimepermissions.h"
+          },
+          "hashes": {
+            "sha-256": "d84f746754f02d629162200889bd7b72425916d13f91dee4c4a2d549d368f673"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/misc/juce_windowsregistry.h"
+          },
+          "hashes": {
+            "sha-256": "190a8dc9d1e5f17f64aa23e1b4414d8bfd1bf7c53175f555914459b8f6161947"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/threads/juce_childprocess.h"
+          },
+          "hashes": {
+            "sha-256": "5e979b5a678f4721fa577167edbd1a12933d7636d8d92053dc1f578992f0b7e5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/threads/juce_dynamiclibrary.h"
+          },
+          "hashes": {
+            "sha-256": "8a4db3501dd6365f64eb81b8333b803d284558a3d49d73b45690fc4bee792bcb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/threads/juce_interprocesslock.h"
+          },
+          "hashes": {
+            "sha-256": "751289a51e26ce48fe5371e58e2890b971c0d5e2aea3615abd3f01555de360a1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/threads/juce_process.h"
+          },
+          "hashes": {
+            "sha-256": "44f10087d07c79f5e3eb7de8749934eaa6d616baf92466d3f1abc1678af328b2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/threads/juce_spinlock.h"
+          },
+          "hashes": {
+            "sha-256": "0e975049c2f01fa7aae16af5119c04c3e698653da93cd05f9a3f7b2b14dca611"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/threads/juce_waitableevent.h"
+          },
+          "hashes": {
+            "sha-256": "76259cbe30bca6005e5d7a495bd07e48a3ac40d7a779681b3e551274b01a9852"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/threads/juce_thread.h"
+          },
+          "hashes": {
+            "sha-256": "86bd43a6c5a71fc38272d2ccc4ed72ba886bab55278d8d3e890978d3ee1a862b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/threads/juce_highresolutiontimer.h"
+          },
+          "hashes": {
+            "sha-256": "880e1c4daa88943523b5bf218ae5ad920ff36255f576afc28837df0d1346b97c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/threads/juce_threadlocalvalue.h"
+          },
+          "hashes": {
+            "sha-256": "56d24ab4ebaaaab2c3125287cfb8d1fa5bf507218097800beba5dc8ab200ef61"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/threads/juce_threadpool.h"
+          },
+          "hashes": {
+            "sha-256": "9012db92432ec36c256635efe057c77f346b31f6abc3e1900da949a65697c96b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/threads/juce_timeslicethread.h"
+          },
+          "hashes": {
+            "sha-256": "5440723255cbc38bdedadb9076132aea31d803aee83cb6b6bf70c83ea00440d2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/threads/juce_readwritelock.h"
+          },
+          "hashes": {
+            "sha-256": "8aa3611c18b0e05a59800ed103c071b28e78611735cee9dc1e5cc8c32f62d163"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/threads/juce_scopedreadlock.h"
+          },
+          "hashes": {
+            "sha-256": "7b5901197026c163e4ff766251712c6e80c2f447c35a149f88a8b6e48b30a771"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/threads/juce_scopedwritelock.h"
+          },
+          "hashes": {
+            "sha-256": "4c10c3be8fab396d2609d0a62f99a63f0878480bb51211b0e0b6548a77690cd8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/network/juce_ipaddress.h"
+          },
+          "hashes": {
+            "sha-256": "b3ec045918c2d8725e231ddf228486324166a98bd4b0b966c975661e24530d87"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/network/juce_macaddress.h"
+          },
+          "hashes": {
+            "sha-256": "62d4284a2886296113d4a9f8275337e7265a3a5334281a32b90ba5a11d94e5b2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/network/juce_namedpipe.h"
+          },
+          "hashes": {
+            "sha-256": "fc762b0fdc3ebf6e0da376769c0492fba7265d28e776b61bb31b628d7d6c2ea7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/network/juce_socket.h"
+          },
+          "hashes": {
+            "sha-256": "242fa6966d4cac0cd7d6c512c37398cc42a37fdd8aeb8d4c6ea31b5a5602cb8d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/network/juce_url.h"
+          },
+          "hashes": {
+            "sha-256": "30dd0739626f05c749ca7c11ae0ad86597c6de9aef285146b2e2df9c791c18ca"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/network/juce_webinputstream.h"
+          },
+          "hashes": {
+            "sha-256": "fcf464640ecde3654f283e33a43c81990484d0828e1a2bcd938f731a67d3c860"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/streams/juce_urlinputsource.h"
+          },
+          "hashes": {
+            "sha-256": "ffd35030c169f9c7deb4ffc607c7a9e3667658991301b5a9cda72e114df59305"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/time/juce_performancecounter.h"
+          },
+          "hashes": {
+            "sha-256": "d4d933649002dd4be147d6e9eceef2d15522a291b34829835290570b4d7c5524"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/unit_tests/juce_unittest.h"
+          },
+          "hashes": {
+            "sha-256": "52142ee3d967d8da09ab5d1e4783645d0992d27957e581dd38a7dbe245b94495"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/xml/juce_xmldocument.h"
+          },
+          "hashes": {
+            "sha-256": "28462047913ae6eec040239e1d95ccb78066c1d16bf09ac1af1827548028aaef"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/xml/juce_xmlelement.h"
+          },
+          "hashes": {
+            "sha-256": "f7d2ff20e33500c9d7040212ab3699aa66a37271dea3cf3fd86e51407db12ac5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/zip/juce_gzipcompressoroutputstream.h"
+          },
+          "hashes": {
+            "sha-256": "1119ed03d18f0c8a3a22b7474d2e2bc307d887a173bded138ceef3ddeb61acac"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/zip/juce_gzipdecompressorinputstream.h"
+          },
+          "hashes": {
+            "sha-256": "48978b5f920145aa0c566f8a5a6bd03e10e6332c61445fa3837b596f3623ac6b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/containers/juce_propertyset.h"
+          },
+          "hashes": {
+            "sha-256": "cea583a8f2e32e793bb05e4eff9f5393099f76a8b75c299bffecdea5c41e23c9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/memory/juce_sharedresourcepointer.h"
+          },
+          "hashes": {
+            "sha-256": "67aa6e8a03a89b61ac0f3094ed83b8976ee2c8c6c5e7ec7c5db6665afc181d64"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/memory/juce_allocationhooks.h"
+          },
+          "hashes": {
+            "sha-256": "3f76dbac62b91cd82801b50b8b9ecf9c43f6a14d16d770ff52173f1fa0516263"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/memory/juce_reservoir.h"
+          },
+          "hashes": {
+            "sha-256": "28be29454be991c71533e068835cfe33314f268d7e38bb4bb48d9cdcd30f7669"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/files/juce_androiddocument.h"
+          },
+          "hashes": {
+            "sha-256": "33ad9e69b8c97d6f030a83b425ea60ad53eae9840130029ee7bdce653a0f4249"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/streams/juce_androiddocumentinputsource.h"
+          },
+          "hashes": {
+            "sha-256": "ed00a389cd8acbec24d69d458a4ac86c862f62b26c24bb064d62408bee10ef96"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/misc/juce_optionshelpers.h"
+          },
+          "hashes": {
+            "sha-256": "06dd2ca2446eb937f4ee9542ae93aec150eb03151f3b6af4130a25aa7942da0b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/detail/juce_callbacklistenerlist.h"
+          },
+          "hashes": {
+            "sha-256": "40fa550faa11d58f39522f86b84a7f582d6b234c46e062fe48cb58fb6a16746e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/native/juce_comsmartptr_windows.h"
+          },
+          "hashes": {
+            "sha-256": "0896cec7aa9db575b4568554780ef2c0d14c4991cf2801d85636e410718c47e3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/containers/juce_abstractfifo.cpp"
+          },
+          "hashes": {
+            "sha-256": "d64a5f6c3b3a516bec9255be9591de84b49a1b65fb013a3d1932d065de3f2e13"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/containers/juce_arraybase.cpp"
+          },
+          "hashes": {
+            "sha-256": "bc70d37e7faaf5a0cd9555d5f96f60126823ed8b9ad4bfbf59a95cc4725ab52d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/containers/juce_namedvalueset.cpp"
+          },
+          "hashes": {
+            "sha-256": "6f53c678edcae2d20d3bdb16ec21bc89a6f360e45e3698dc439c1d92a94dfc9a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/containers/juce_ownedarray.cpp"
+          },
+          "hashes": {
+            "sha-256": "d7b992a5906f303d5b3a0e0c39ad9b7f47019e63467d019e1f9c7c5b96f0f22f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/containers/juce_propertyset.cpp"
+          },
+          "hashes": {
+            "sha-256": "507bcd8dfd4f4bd9ef2ac9d838210cdb971517334a89b47b7a6cb951514cd9c0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/containers/juce_referencecountedarray.cpp"
+          },
+          "hashes": {
+            "sha-256": "93f974988b9165d946d3693220450d47a94eb866c7ca011d56d1030c66fcfc36"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/containers/juce_sparseset.cpp"
+          },
+          "hashes": {
+            "sha-256": "ba70b92f54413b0d10fab21bd83a17cc364cead5550ab0525b22b14acf7528b2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/files/juce_directoryiterator.cpp"
+          },
+          "hashes": {
+            "sha-256": "5427d6606b884b5d1346377d52305fa0451371f8fce69bb369b8658238130e2b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/files/juce_rangeddirectoryiterator.cpp"
+          },
+          "hashes": {
+            "sha-256": "f72e87ad9ff44dfbb78818e4f1d8deb1e0e889c67a3907beb3500b8aac14c07a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/files/juce_file.cpp"
+          },
+          "hashes": {
+            "sha-256": "d9912e089db39817ee823886c601237d9c2daa14e8d2b76b4a8228b61c0c7f90"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/files/juce_fileinputstream.cpp"
+          },
+          "hashes": {
+            "sha-256": "aa46e130091551e1ed35400af34e38783fe85937f42db9fdb678f7bbdc421425"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/files/juce_fileoutputstream.cpp"
+          },
+          "hashes": {
+            "sha-256": "60360f857ac5837f80b652de6bb4ff4f04b1655ee2be2046c28e80981962ad22"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/files/juce_filesearchpath.cpp"
+          },
+          "hashes": {
+            "sha-256": "531c011b7da935731b167c44c65f57a374837375db716b90e879f425a2cf916e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/files/juce_temporaryfile.cpp"
+          },
+          "hashes": {
+            "sha-256": "429143f672d125fd9dd0d8d715342524aab8416ad41a57a78a82ef4545a97856"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/logging/juce_filelogger.cpp"
+          },
+          "hashes": {
+            "sha-256": "4b165618fa44ae6012b3f26e8ae3f1eb648c3b30a12f71b81e7a2229582822e1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/logging/juce_logger.cpp"
+          },
+          "hashes": {
+            "sha-256": "1d759ebc9ecfeba4cb80f5c6ec7201164b4df3bfb5a64e4f6ab6f1dc8cf2f99a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/maths/juce_biginteger.cpp"
+          },
+          "hashes": {
+            "sha-256": "72587e7181175203d887bfb11582db12f6039beeeb33601a1a23e6ab8050eadf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/maths/juce_expression.cpp"
+          },
+          "hashes": {
+            "sha-256": "b3e5c4c8b173d2c0a113f005b2f3c1511256bdf09a3b2d93b80f11f4ee475017"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/maths/juce_random.cpp"
+          },
+          "hashes": {
+            "sha-256": "6c06c1ca3ae3be7b0ef56dd227ce81b9a510b5ee6e128158e1cb0a74a9876522"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/memory/juce_memoryblock.cpp"
+          },
+          "hashes": {
+            "sha-256": "0c855a3caa60e632f9b121dfea9131f5c9305ad356a7a4d3f44206b1c571cf54"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/memory/juce_allocationhooks.cpp"
+          },
+          "hashes": {
+            "sha-256": "1136ebaba4af9ada830989a56c80e94ec8b4fa27acf8db18ce129c8c78677ca6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/misc/juce_runtimepermissions.cpp"
+          },
+          "hashes": {
+            "sha-256": "671bcb005debcc4f134e61f6b91a24cf2f37192da73035f01a290abb15e6b3ae"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/misc/juce_result.cpp"
+          },
+          "hashes": {
+            "sha-256": "f3189645e2449b5300e4361176c1f3365f4cbf3496dc673a92cf782fb1c8dda1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/misc/juce_uuid.cpp"
+          },
+          "hashes": {
+            "sha-256": "6c07dc828a656bc33abf345484dc3beeff28595e08fb3018a5934962c9690010"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/misc/juce_consoleapplication.cpp"
+          },
+          "hashes": {
+            "sha-256": "af08544861357c3c076bb1780a890e76e59d662dc3268d36c2a9c0880a6cd1f7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/misc/juce_scopeguard.cpp"
+          },
+          "hashes": {
+            "sha-256": "b86afcbadd7adc2c8dfb4248163999395b02f34bd1a02b29a90204269dbccb1b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/network/juce_macaddress.cpp"
+          },
+          "hashes": {
+            "sha-256": "8519f1b0685fb56dc6b7356e6f6ed9210c076598b6a0c4c22c385a6bda355913"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/native/juce_files_windows.cpp"
+          },
+          "hashes": {
+            "sha-256": "5ea6a9d6c4d4575d234d3370b15596d190d378efac6eb2e3677734b7f65db207"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/network/juce_namedpipe.cpp"
+          },
+          "hashes": {
+            "sha-256": "1d84e2002c9f5af22e1c3c82dc09f6a0eb766b609ba382383c25f8c0b1ffcb4f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/network/juce_socket.cpp"
+          },
+          "hashes": {
+            "sha-256": "af281a5ede7adcbed727de80906693507b31c6ae05b8465d0de724912fb93e60"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/streams/juce_bufferedinputstream.cpp"
+          },
+          "hashes": {
+            "sha-256": "6af3a1ec7908713d68a8d9e874300905b639f703e2aaf8cfa9cdbe42e6866bbf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/streams/juce_fileinputsource.cpp"
+          },
+          "hashes": {
+            "sha-256": "4dfc9aa02952d8ffd8c5f2b001d74998613f083fa6172a6beec1637b63d8c579"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/streams/juce_inputstream.cpp"
+          },
+          "hashes": {
+            "sha-256": "5970f7291be448261074247cd92203812bfda65c94ba233a85247cc215be70c8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/streams/juce_memoryinputstream.cpp"
+          },
+          "hashes": {
+            "sha-256": "cd276ca494d03b2da2eef07f080c6ebae1a2b1729e22a269c4f8f6d007295225"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/streams/juce_memoryoutputstream.cpp"
+          },
+          "hashes": {
+            "sha-256": "9de087546d2c0f860a5425e47eb27f668542e5d874b357f25f7dbfaa87ba8444"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/streams/juce_subregionstream.cpp"
+          },
+          "hashes": {
+            "sha-256": "2e3e6c5f5e255ae1b906ee5a7325fedf2ec18c236e16c44ac22d800d31338198"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/system/juce_systemstats.cpp"
+          },
+          "hashes": {
+            "sha-256": "2adfcec3a4d23ab98e7f21e05ea4fdcee3057384c4a57eecff5e1b4acb28e1f8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/text/juce_characterfunctions.cpp"
+          },
+          "hashes": {
+            "sha-256": "60ce084684548ea3faed9a02af9cbd9b77fca3fa32d58b3dae1555a0f6d42c60"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/text/juce_identifier.cpp"
+          },
+          "hashes": {
+            "sha-256": "d0591c798efbf888bb2bcf9d0e63bdfc7b38f1cf9bdc32530206cc0098cdb26e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/text/juce_localisedstrings.cpp"
+          },
+          "hashes": {
+            "sha-256": "831a486cd377d0384be23773d08f988a97c5ecca3367642edc5482b192813e41"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/text/juce_string.cpp"
+          },
+          "hashes": {
+            "sha-256": "0f6e111d1730297bce4b4125e9dd3738c9889db844655b842fac2446e2c2b0d4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/streams/juce_outputstream.cpp"
+          },
+          "hashes": {
+            "sha-256": "38f74bee17a44b2b7cc460647d88c6aecff0860c869801dc833c7bd8e4b2860b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/text/juce_stringarray.cpp"
+          },
+          "hashes": {
+            "sha-256": "f6174d8660398e933a3e2c9b3c4e5cd2bfcd0f890b12d6500ceb940ac22b98ad"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/text/juce_stringpairarray.cpp"
+          },
+          "hashes": {
+            "sha-256": "a0c30545577b2cc5c890070fc7b30118b7f8288b0d17d84871a3dc4aac2e2713"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/text/juce_stringpool.cpp"
+          },
+          "hashes": {
+            "sha-256": "c4c988b595ebd1647b8ff9ebfc32343bc5ad7c02b3209e61c5797b1fc1fc16dd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/text/juce_textdiff.cpp"
+          },
+          "hashes": {
+            "sha-256": "066a02de139077de5563194ca29f4aebf21c16986c73684ff7e49fe03d42c21c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/text/juce_base64.cpp"
+          },
+          "hashes": {
+            "sha-256": "51f13564e328357e747d2d42e87ded3a0285ca8aa9668f08a6a390527f203173"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/threads/juce_readwritelock.cpp"
+          },
+          "hashes": {
+            "sha-256": "ed2ae9ac9e69f84c730a56b91a0e84cc40dbe360d436370a6efb446a59e0bf07"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/threads/juce_thread.cpp"
+          },
+          "hashes": {
+            "sha-256": "ddf2284420d106f76be4095580bfae531b8175c691fefa392d0a2d56415e7210"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/threads/juce_threadpool.cpp"
+          },
+          "hashes": {
+            "sha-256": "e00fcde4063c36b11aa0707abfe85fbd850ca3e83a2b88e75ab5ac155654efef"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/threads/juce_timeslicethread.cpp"
+          },
+          "hashes": {
+            "sha-256": "da3880b4f9aa9d7c9cd03b7c19f367fae0b29dcdf1e852713d5b20e715cc8ccd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/time/juce_performancecounter.cpp"
+          },
+          "hashes": {
+            "sha-256": "b129333bc282d1829a67eefc3c5b91bcc461401047f6f122c94b8a767ba01175"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/time/juce_relativetime.cpp"
+          },
+          "hashes": {
+            "sha-256": "6dc97c33ead58a682e033f7d8aa171a75377629ad413792f13e8a8c546b7a0c7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/time/juce_time.cpp"
+          },
+          "hashes": {
+            "sha-256": "ad0843c77a1ec3eb24edde1d58b6d0f2ec1d7fb941151285733058af112f9646"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/unit_tests/juce_unittest.cpp"
+          },
+          "hashes": {
+            "sha-256": "1cde1aaf51ac7ed7cd590e77c19cf136a7a92fa5b6c611a0f6a78ebaba9dae27"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/json/juce_json.cpp"
+          },
+          "hashes": {
+            "sha-256": "d9f958281c55d9d0d3770b8500803af622d307a83f8ccb340602c9b9aaa1c86f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/json/juce_jsonutils.cpp"
+          },
+          "hashes": {
+            "sha-256": "ddab86f14766512c2e7e6a6682902ba6764577f56ea8d75c15bc1304b3e37fcf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/containers/juce_dynamicobject.cpp"
+          },
+          "hashes": {
+            "sha-256": "5b8b8f7683bd07a208f54e693ed54b8d6cb26ec8663e901dd05c968d1a60f4bd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/xml/juce_xmldocument.cpp"
+          },
+          "hashes": {
+            "sha-256": "845402e26a9e0bd89138f2248b9e2e5162e3fc4f55178afc205d729536e26e60"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/zip/zlib/zlib.h"
+          },
+          "hashes": {
+            "sha-256": "43ee9dbc2a8a2d29cdb5cc3ef7e7833f09db7b8c2c490c9835b7c101e7a54f75"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/zip/zlib/zconf.h"
+          },
+          "hashes": {
+            "sha-256": "3d714c23d4580bb5dea944f027cc3b115e7582352da9a030b7b0076f3267cf0f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/zip/zlib/adler32.c"
+          },
+          "hashes": {
+            "sha-256": "f57e42ca273c3a5dcd079984807d0720441e2cc0bc1cc25f7a469e5ed4e48293"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/zip/zlib/compress.c"
+          },
+          "hashes": {
+            "sha-256": "cb401e886186e527b171dd29d531c6d24cb95e7786aed9f7f6e7979570e75805"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/zip/zlib/crc32.c"
+          },
+          "hashes": {
+            "sha-256": "d3cea589a2f07ec6d14e116085471f2e32332c7a315062b4fe2f663a522cc721"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/zip/zlib/zutil.h"
+          },
+          "hashes": {
+            "sha-256": "6041bf73bc10d73d2c988699dfbe723503de45f6dcd7bbc938d42b98c4fb99e9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/zip/zlib/crc32.h"
+          },
+          "hashes": {
+            "sha-256": "c449f1e7b422d4aa1e12a194f854d87261a9d5de6ae0790d50ed7c5f7c4726c3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/zip/zlib/deflate.c"
+          },
+          "hashes": {
+            "sha-256": "242fc25cec388c3b14ae57d19032adaa6fdabc9fb3bc84ad5d79fed09b95f6e2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/zip/zlib/deflate.h"
+          },
+          "hashes": {
+            "sha-256": "697d7aebd34817365f10aae01f152eb553e952e35d1569ae7df793b73fc62956"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/zip/zlib/inffast.c"
+          },
+          "hashes": {
+            "sha-256": "1a9af92faf7997b29217591fcb29e1701bcdd1236be2f4a3acde36509a84de24"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/zip/zlib/inftrees.h"
+          },
+          "hashes": {
+            "sha-256": "a0f1f7273d215fb5adc960d0717907f07dfceb957a9e990302690ddb640d599c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/zip/zlib/inflate.h"
+          },
+          "hashes": {
+            "sha-256": "1c2aa259a731f676b0518c85034c50f0572ea43dbd2f562ccc6f934c9587afc4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/zip/zlib/inffast.h"
+          },
+          "hashes": {
+            "sha-256": "a689d9db478afa4c087477baf19ea0595d0614f67546266b0daf99718003cb5c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/zip/zlib/inffixed.h"
+          },
+          "hashes": {
+            "sha-256": "68071ea42d0aca859a1561a3148b0ea496fce623772ab1595ebff8cdcfd1d79f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/zip/zlib/inftrees.c"
+          },
+          "hashes": {
+            "sha-256": "8ef0b4146ff718a1aaff244148ad38b7579502cf9c9ead63c61e3cd92f3c95a5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/zip/zlib/trees.c"
+          },
+          "hashes": {
+            "sha-256": "7ed27825a06e2930d6b52a56be2eb010b79df0bb62fb823f086d0d9b74861f92"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/zip/zlib/trees.h"
+          },
+          "hashes": {
+            "sha-256": "1a08fe0824ccccfaa0a9a35871e40f8c7485ef52c603047eacec74cb2736654d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/zip/zlib/zutil.c"
+          },
+          "hashes": {
+            "sha-256": "99263dcd06e760a023126865d78fc5206ddc2701fbc4ad82231b0c7164145f95"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/zip/juce_zipfile.cpp"
+          },
+          "hashes": {
+            "sha-256": "8041225c352735c8c6fccfa251ceea8fdf2e77ce6ec7a4076d261f2bb92519e3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/files/juce_filefilter.cpp"
+          },
+          "hashes": {
+            "sha-256": "593437dae7b754862ed66535a0ac67aeb77b34e55a6a932abfefdc731433a568"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/files/juce_wildcardfilefilter.cpp"
+          },
+          "hashes": {
+            "sha-256": "f74be423f7c2b5a06c0aac10f0239ce622bcd00eac9e64f4c2eb107e63a6cf5e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/native/juce_threadpriorities_native.h"
+          },
+          "hashes": {
+            "sha-256": "43fac01979ae3a34621201805f53853917da633da67966dadfb55453cdb27418"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/native/juce_platformtimerlistener.h"
+          },
+          "hashes": {
+            "sha-256": "9db572983df6b1637337398b52eb2ef4bd788b5ff84d64f4591fc011f1f3e43a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/native/juce_network_windows.cpp"
+          },
+          "hashes": {
+            "sha-256": "7287617cab7fc98ea951d528020f8c857bc425ef1242e346872d28df1c4d5a6d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/native/juce_registry_windows.cpp"
+          },
+          "hashes": {
+            "sha-256": "ad88941d7361060892be485d6cd5dc79ebca613769f901c52b6d7a0d13e96ca8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/native/juce_systemstats_windows.cpp"
+          },
+          "hashes": {
+            "sha-256": "99c782295108e866f38d5440b1464d9afce24f8f4ac859484fb531f346e8974e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/native/juce_platformtimer_generic.cpp"
+          },
+          "hashes": {
+            "sha-256": "a3e37665116e19aa0ea6367d2601c26cac49b63660650e49b9eec44f15384ee2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/native/juce_platformtimer_windows.cpp"
+          },
+          "hashes": {
+            "sha-256": "3ab0c4aa6f3684c8e5085f48040d836e305b1cffe69cb77a60cf954839dbad9f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/files/juce_common_mimetypes.h"
+          },
+          "hashes": {
+            "sha-256": "e56b11a1712cccb40611de95655e4f037e17140e1e4ab41509879f8cb0dceb80"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/files/juce_common_mimetypes.cpp"
+          },
+          "hashes": {
+            "sha-256": "a78954cb341b811b4484ad2afef078e9a78e9221a1fa08f17ac631a83a68792d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/native/juce_androiddocument_android.cpp"
+          },
+          "hashes": {
+            "sha-256": "97063fa7db0fc47d7507f62cba818be0131528e9ba03560f1ac38a1609a421c9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/threads/juce_highresolutiontimer.cpp"
+          },
+          "hashes": {
+            "sha-256": "737c63b01322844bbfad0338707bafd1eb5719ec7b28424ce02db3742b80be02"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/threads/juce_waitableevent.cpp"
+          },
+          "hashes": {
+            "sha-256": "dd575cf39bc0ed1e9bccb55c17d074a0de4c28cf3dd49b0b1302344d1c070b9c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/network/juce_url.cpp"
+          },
+          "hashes": {
+            "sha-256": "771c22a97d78083f0d9d99bdc813c3ae2722726bdcc1c51a330e50aaba48000e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/threads/juce_childprocess.cpp"
+          },
+          "hashes": {
+            "sha-256": "1f7dce00ed9409119d0b7ec0013c3fa4023b3cd9dc83114577fa1fbb74a9cc8d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/network/juce_webinputstream.cpp"
+          },
+          "hashes": {
+            "sha-256": "ca35e5778da7b571f0dcd47949c2620d285cfab8149d88b71f2ce6cfc67f30c4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pm/prod_juce/juce/modules/juce_core/streams/juce_urlinputsource.cpp"
+          },
+          "hashes": {
+            "sha-256": "bbc68f89b94f320ecf111bc9a6c0b07694c77c6263a25f70be01c596a4c9d6d1"
+          }
+        }
+      ]
+    }
+  ]
+}
