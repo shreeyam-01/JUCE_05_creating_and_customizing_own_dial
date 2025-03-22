@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="wtCYRs" name="slider_and_dial_customization_part2" projectType="guiapp"
+              useAppConfig="0" addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+  <MAINGROUP id="QnAqAw" name="slider_and_dial_customization_part2">
+    <GROUP id="{9B0187DD-BD2E-FDDA-DF8D-1CC7B0A5EB86}" name="Source">
+      <FILE id="TqNYRW" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="UEwuII" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="TkNzHH" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="slider_and_dial_customization_part2"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="slider_and_dial_customization_part2"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="D:/PM/prod_juce/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="D:/PM/prod_juce/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="D:/PM/prod_juce/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="D:/PM/prod_juce/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="D:/PM/prod_juce/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
